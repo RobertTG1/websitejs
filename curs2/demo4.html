@@ -1,61 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur dolore id provident rem quidem accusantium
-        nulla, sapiente cum ducimus tempora mollitia, accusamus distinctio praesentium amet magnam nostrum? Harum,
-        explicabo fugit.</p>
-    <p name="p" class="p">Ea nihil sapiente perferendis asperiores facere corporis dolores dolorem, praesentium, odit
-        tempore, commodi
-        tempora. Eos eligendi corporis assumenda quae velit dolorem at? Mollitia totam, veritatis sapiente fugit a ex
-        hic.</p>
-    <p>Eveniet odio doloremque vitae rerum impedit cum error nemo voluptate quod, omnis ipsa repudiandae eos. Illum vel
-        ut quae vitae temporibus, assumenda enim minima similique voluptatum dignissimos magnam possimus nihil!</p>
-    <p>Veniam numquam quod, dolor ex eum quisquam accusamus, expedita est nam iusto facilis enim maiores explicabo
-        deleniti, eos quas alias ab dolores ut ipsa obcaecati quia? Tempora fugiat dolorum assumenda?</p>
-    <p name="p" class="p">Corrupti eum magni autem amet itaque eos vero, modi corporis, incidunt iure impedit atque
-        possimus consequuntur
-        enim qui nisi, aliquam magnam culpa tempora consectetur cumque rem dicta totam eveniet! Recusandae.</p>
-    <p>Ad similique aliquid laudantium voluptatem amet exercitationem iure minima saepe id atque, doloremque officiis
-        velit quisquam fuga cumque ipsum architecto fugiat iusto fugit omnis inventore asperiores sit hic. At, vero.</p>
-    <p>Rem modi reiciendis et eveniet necessitatibus pariatur excepturi exercitationem amet maiores, sint ab accusamus
-        totam nihil iure inventore ex repudiandae ipsum deleniti possimus magnam. Repudiandae rerum necessitatibus
-        aliquid molestiae corrupti.</p>
-    <p name="p" class="p">Quibusdam placeat quo facere facilis nesciunt maiores dolores illum laboriosam officiis
-        repudiandae quos tempora
-        ducimus necessitatibus nihil explicabo accusantium perferendis numquam harum, quod error voluptatum itaque
-        deserunt quas suscipit? Eaque.</p>
-    <p>Rem modi reiciendis et eveniet necessitatibus pariatur excepturi exercitationem amet maiores, sint ab accusamus
-        totam nihil iure inventore ex repudiandae ipsum deleniti possimus magnam. Repudiandae rerum necessitatibus
-        aliquid molestiae corrupti.</p>
-    <p>Rem modi reiciendis et eveniet necessitatibus pariatur excepturi exercitationem amet maiores, sint ab accusamus
-        totam nihil iure inventore ex repudiandae ipsum deleniti possimus magnam. Repudiandae rerum necessitatibus
-        aliquid molestiae corrupti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur cum recusandae ea harum itaque id iste culpa perspiciatis impedit, dolorum dolorem quam alias aut at commodi sed. Nesciunt, facere.</p>
+    <p name='p' class="p">Saepe dicta culpa perferendis illum, minima, neque commodi cumque voluptates necessitatibus provident soluta maxime exercitationem nihil omnis nisi deserunt, vel voluptas deleniti doloribus veniam. Itaque molestias autem totam natus illo.</p>
+    <p>Tenetur commodi est consectetur accusamus laudantium voluptas omnis, a harum aliquam natus animi accusantium ratione beatae atque repudiandae vero dolor magni inventore necessitatibus, porro magnam cum cumque eum. Error, hic!</p>
+    <p name='p' class="p">Maxime nostrum beatae blanditiis eligendi doloremque cum veniam assumenda! Vero harum quo assumenda quis doloribus. Incidunt aliquid dignissimos earum eos quia ipsa hic, eveniet, a modi, quae distinctio corrupti nulla!</p>
+    <p>At deserunt, voluptates, commodi autem vitae perspiciatis iste doloribus accusantium odit officia molestias quibusdam aliquam soluta. Quis error ab, sunt repellat hic tempore mollitia, saepe dicta odit eius minus natus.</p>
+    <p>Libero vitae ut natus dolor. Ut, itaque explicabo quis voluptates enim ea harum voluptatum quibusdam commodi sunt esse adipisci. Sunt aspernatur molestias velit possimus non iure! Esse dolorem at accusantium.</p>
+    <p name='p' class="p">Error dolor tempore culpa cumque, facere architecto nam nostrum illum odit facilis dicta explicabo enim voluptatem assumenda minima deserunt aspernatur nulla ut optio dolorem eius impedit laboriosam eveniet nemo? Explicabo.</p>
+    <p>Optio consequuntur iste fuga odit obcaecati voluptatem dignissimos vitae repellendus, voluptatum eum autem. Animi non impedit molestiae ex, sit laudantium doloribus, maxime odit, quia optio libero! Deleniti voluptatum voluptates voluptas.</p>
+    <p>Inventore recusandae sequi optio quam veniam quibusdam quasi. Provident, totam, mollitia nam voluptates quod pariatur asperiores architecto cum maxime sed eligendi illo similique, doloremque tempore consequatur consectetur iusto. Corporis, ea.</p>
+    <p>Eum quae accusantium ab explicabo nesciunt corporis veniam aspernatur ea voluptates, inventore itaque placeat perferendis temporibus mollitia vitae nemo aliquid beatae! Fuga a laboriosam esse accusamus, consectetur magni eum excepturi.</p> 
+<script>
+    var myp =document.querySelectorAll('p');
+     var lungime =myp.length;
+    for(let i =1; i <lungime; i++){
+        if(i == 2 || i==5 || i== 8){
+            myp[i].style.color ='red';
+        }
 
-    <script>
-        var myp = document.getElementsByClassName("p");
-        var lungime = myp.length;
-        for (let i = 1; i <= lungime; i++) {
-            //if (i == 2 || i == 5 || i == 8) {
-            myp[i].style.color = "red";
-           // }
-        }
-        var myp = document.getElementsByName("p")
-        var lungime = myp.length
-        for (let i = 1; i <= lungime; i++) {
-            //if (i == 2 || i == 5 || i == 8) {
-            myp[i].style.color = "red";
-            //}
-        }
-    </script>
+    }
+
+</script>
 
 </body>
-
 </html>
